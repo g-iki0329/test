@@ -5,6 +5,7 @@ var editor   = Editor;
 
 switch(Editor.IsTextSelected()) {
     // 非選択状態
+    //
     case 0:
         editor.SelectAll();
     // 選択状態
